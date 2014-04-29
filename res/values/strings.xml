@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Thirsty Crow</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_start">Start</string>
+    <string name="button_return">Return</string>
+    <string name="button_about">About</string>
+    <string name="toggle_background_audio">Toggle Background Audio</string>
+    <string name="button_play">Play</string>
+    <string name="button_stop">Stop</string>
+    <string name="story_placeholder">A Thirsty Crow..</string>
+    <string name="story_part1">One hot day, there was a thirsty crow, looking for water everywhere. 
+        For long time, he couldn\'t find any and felt very weak.</string>
+    <string name="story_part2">He decided to rest on a tree.
+        Suddenly, he saw a pot at some distance.</string>
+    <string name="story_part3">He flew towards the pot to drink water.</string>
+    <string name="story_part4">Yes, he could see some water inside the pot!
+        The crow tried to reach the water, but sadly, he found that the water level was too low.
+        Then he tried to push the pot to tilt for the water to flow out but the pot was too heavy.</string>
+    <string name="story_part5">The crow thought hard for a while. Then looking around,he saw some pebbles. 
+        He suddenly had a good idea. He started picking up the pebbles one by one, dropping each into the pot.
+        \n(Hint: Touch the picture to help the crow drop pebbles.)</string>
+    <string name="story_part6">As more and more pebbles filled the pot, the water level kept rising. 
+                    Soon it was high enough for the crow to drink. </string>
+    <string name="story_part7">The crow drank the water and flew away happily.
+     \n\n<b>Moral of the story: Where there is a will, there is a way!!!</b></string>
+    <string name="about_page">This interactive story telling application narrates one of the best moral stories. 
+        \n\nThis beautifully illustrated story uses animated scenes, on click animations and audios to capture the interest of the reading audience.
+        \n\nThe application gives the option to read the story yourself or hit the \'Play\' button to let the app read it for you. This great story inspires 
+        children and adults to learn respect, good values, ethics, morals and good behavior.
+        \n\n© Samiksha Sharma</string>
+
+</resources>

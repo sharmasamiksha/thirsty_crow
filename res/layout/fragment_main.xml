@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.uw.android.MainActivity$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/background_image_size_vertical"
+        android:id="@+id/rlImages"    
+        android:layout_alignParentTop="true"/>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlImages"
+        android:layout_above="@+id/llButtons"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:id="@+id/llButtons">
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/story_placeholder"
+	        android:id="@+id/tvStory"
+	        android:textSize="@dimen/main_page_text_size"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|bottom"
+        android:id="@id/llButtons"
+        android:padding="@dimen/layout_vertical_padding" >
+
+        <Button
+            android:id="@+id/bPlay"
+            android:layout_width="@dimen/main_page_button_width"
+            android:layout_height="@dimen/main_page_button_height"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/button_background_crow"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="@dimen/main_page_button_padding_bottom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/main_page_text_size"
+            android:text="@string/button_play" />
+
+        <Button
+            android:id="@+id/bStop"
+            android:layout_width="@dimen/main_page_button_width"
+            android:layout_height="@dimen/main_page_button_height"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/button_background"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="@dimen/main_page_button_padding_bottom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/main_page_text_size"
+            android:text="@string/button_stop" />
+    </LinearLayout>
+
+</RelativeLayout>

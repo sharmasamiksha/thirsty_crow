@@ -1,0 +1,29 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uw.android.MainActivity$PlaceholderFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/background_image_size_vertical"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@drawable/crow_spots_pot_and_flies" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_gradient_size_vertical"
+        android:layout_x="0dp"
+        android:layout_y="@dimen/border_gradient_displacement_y"
+        android:background="@drawable/border_gradient"/>
+    
+    <ImageView
+        android:id="@+id/ivFlyingCrow"
+        android:layout_width="@dimen/page_3_crow_width"
+        android:layout_height="@dimen/page_3_crow_height"
+        android:layout_x="@dimen/page_3_crow_displacement_x"
+        android:layout_y="@dimen/page_3_crow_displacement_y"
+        android:background="@drawable/crow_1" />
+
+</AbsoluteLayout>

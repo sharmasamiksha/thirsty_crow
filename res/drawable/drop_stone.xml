@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/crow_drops_stone_1" android:duration="500" />
+    <item android:drawable="@drawable/crow_drops_stone_2" android:duration="100" />
+    <item android:drawable="@drawable/crow_drops_stone_3" android:duration="100" />
+    <item android:drawable="@drawable/crow_drops_stone_4" android:duration="500" />
+</animation-list>

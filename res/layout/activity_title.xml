@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rlTitle"
+    android:background="@drawable/thirsty_crow_background_0"
+    tools:context="com.uw.android.TitleActivity">
+    
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_page_button_margin_top"
+        android:background="@drawable/wood_plank"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/title_page_button_text_size"
+        android:textStyle="bold"
+        android:text="@string/button_start"
+        android:onClick="onClick" />
+    
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_start"
+        android:layout_alignStart="@+id/button_start"
+        android:layout_below="@+id/button_start"
+        android:background="@drawable/wood_plank"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/title_page_button_text_size"
+        android:textStyle="bold"
+        android:text="@string/button_about"
+        android:onClick="onClick"/>
+    </RelativeLayout>
